@@ -8,6 +8,11 @@
     Title="DemoMAUI">
 
     <ShellContent
+        Title="Hello"
+        ContentTemplate="{DataTemplate local:HolaMundo}"
+        Route="HelloPage" />
+
+    <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
