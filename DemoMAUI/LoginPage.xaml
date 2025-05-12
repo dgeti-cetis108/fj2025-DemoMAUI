@@ -3,9 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DemoMAUI.LoginPage"
              Title="Mis Asistencias">
-    <VerticalStackLayout Padding="20,50,20,0" Spacing="20">
+    <VerticalStackLayout Padding="50" Spacing="20">
+        <Image 
+            Source="loginpage_image.png"
+            HeightRequest="200"
+            />
         <VerticalStackLayout>
-            <Label Text="Usuario:" />
+            <Label Text="Usuario" />
             <Entry />
         </VerticalStackLayout>
         <Entry Placeholder="Contraseña" IsPassword="True" />
@@ -19,5 +23,9 @@
             Background="Transparent"
             TextColor="Blue"
             Text="Crear una nueva cuenta" />
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Uno" HorizontalOptions="FillAndExpand" />
+            <Button Text="Dos" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
     </VerticalStackLayout>
 </ContentPage>
