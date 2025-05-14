@@ -8,6 +8,11 @@
     Title="DemoMAUI">
 
     <ShellContent
+        Title="Rejilla (Grid)"
+        ContentTemplate="{DataTemplate local:GridPage}"
+        Route="GridPage" />
+
+    <ShellContent
         Title="Inicio de sesión"
         ContentTemplate="{DataTemplate local:LoginPage}"
         Route="LoginPage" />
